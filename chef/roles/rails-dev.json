@@ -4,6 +4,7 @@
   "description": "Install ruby on rails",
   "run_list": [
     "recipe[apt]",
+    "recipe[build-essential]",
     "recipe[git]",
     "recipe[sqlite]",
     "recipe[mysql::client]",
