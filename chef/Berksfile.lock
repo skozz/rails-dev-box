@@ -18,6 +18,9 @@
     "redis": {
       "locked_version": "3.0.4"
     },
+    "postgresql": {
+      "locked_version": "3.1.0"
+    },
     "dmg": {
       "locked_version": "2.0.4"
     },

@@ -10,13 +10,19 @@
     "recipe[mysql::ruby]",
     "recipe[mysql::server]",
     "recipe[memcached]",
-    "recipe[redis]"
+    "recipe[redis]",
+    "recipe[postgresql::server]"
   ],
   "override_attributes": {
     "mysql": {
       "server_root_password": "",
       "server_repl_password": "",
       "server_debian_password": ""
+    },
+    "postgresql": {
+      "password": {
+        "postgres": ""
+      }
     }
   }
 }
