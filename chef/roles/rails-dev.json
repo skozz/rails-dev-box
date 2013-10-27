@@ -16,7 +16,8 @@
     "recipe[phantomjs]",
     "recipe[ruby_build]",
     "recipe[rbenv::vagrant]",
-    "recipe[rbenv::user]"
+    "recipe[rbenv::user]",
+    "recipe[nodejs::install_from_binary]"
   ],
   "override_attributes": {
     "mysql": {
