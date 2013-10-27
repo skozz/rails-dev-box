@@ -6,6 +6,7 @@
     "recipe[apt]",
     "recipe[build-essential]",
     "recipe[git]",
+    "recipe[vim]",
     "recipe[sqlite]",
     "recipe[mysql::client]",
     "recipe[mysql::ruby]",
