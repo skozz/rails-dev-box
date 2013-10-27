@@ -12,6 +12,12 @@
     "mysql": {
       "locked_version": "3.0.12"
     },
+    "memcached": {
+      "locked_version": "1.6.2"
+    },
+    "redis": {
+      "locked_version": "3.0.4"
+    },
     "dmg": {
       "locked_version": "2.0.4"
     },
@@ -32,6 +38,12 @@
     },
     "openssl": {
       "locked_version": "1.1.0"
+    },
+    "install_from": {
+      "locked_version": "3.0.4"
+    },
+    "metachef": {
+      "locked_version": "3.0.4"
     }
   }
 }

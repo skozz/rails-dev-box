@@ -8,7 +8,9 @@
     "recipe[sqlite]",
     "recipe[mysql::client]",
     "recipe[mysql::ruby]",
-    "recipe[mysql::server]"
+    "recipe[mysql::server]",
+    "recipe[memcached]",
+    "recipe[redis]"
   ],
   "override_attributes": {
     "mysql": {
