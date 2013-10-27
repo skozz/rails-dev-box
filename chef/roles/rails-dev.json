@@ -13,7 +13,10 @@
     "recipe[memcached]",
     "recipe[redis]",
     "recipe[postgresql::server]",
-    "recipe[phantomjs]"
+    "recipe[phantomjs]",
+    "recipe[ruby_build]",
+    "recipe[rbenv::vagrant]",
+    "recipe[rbenv::user]"
   ],
   "override_attributes": {
     "mysql": {
@@ -25,6 +28,20 @@
       "password": {
         "postgres": ""
       }
+    },
+    "rbenv": {
+      "user_installs": [
+        {
+          "user": "vagrant",
+          "rubies": ["2.0.0-p247"],
+          "global": "2.0.0-p247",
+          "gems": {
+            "2.0.0-p247": [
+              { "name": "bundler" }
+            ]
+          }
+        }
+      ]
     }
   }
 }
