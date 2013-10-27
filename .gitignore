@@ -1,4 +1,8 @@
-.vagrant*
-rails
-tmp
+.vagrant
+**.swp
+**.swo
+**.log
+**.rbc
+**.orig
+**/tmp/*
 /chef/cookbooks
