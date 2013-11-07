@@ -18,7 +18,9 @@
     "recipe[ruby_build]",
     "recipe[rbenv::vagrant]",
     "recipe[rbenv::user]",
-    "recipe[nodejs::install_from_binary]"
+    "recipe[nodejs::install_from_binary]",
+    "recipe[mongodb::10gen_repo]",
+    "recipe[mongodb]"
   ],
   "override_attributes": {
     "mysql": {

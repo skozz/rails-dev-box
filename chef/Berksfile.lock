@@ -43,6 +43,9 @@
     "vim": {
       "locked_version": "1.0.2"
     },
+    "mongodb": {
+      "locked_version": "0.13.4"
+    },
     "dmg": {
       "locked_version": "2.0.4"
     },
