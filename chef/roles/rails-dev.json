@@ -20,7 +20,8 @@
     "recipe[rbenv::user]",
     "recipe[nodejs::install_from_binary]",
     "recipe[mongodb::10gen_repo]",
-    "recipe[mongodb]"
+    "recipe[mongodb]",
+    "recipe[base]"
   ],
   "override_attributes": {
     "mysql": {
